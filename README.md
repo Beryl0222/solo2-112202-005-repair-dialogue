@@ -10,6 +10,7 @@ TSV 文件采用 UTF-8，首行为列名。行首 id 是该表的稳定记录号
 - `materials/manual.tsv`。manual 为手册发版号，route 是检修路径名。文字描述可观察条件及适用工位。
 - `materials/stations.tsv`。availability 为本班实际设备状态。handoff 是已经交接的工作，空值表示没有登记。
 - `materials/prior_check.tsv`。recorded_at 为检查实际发生时间；config 保留原记录的组件和负载信息。
+- `materials/loan_log.tsv`。asset 是对照台编号，retained_state 是移动检具时会改变的物理配置。
 
 ## 运行资料检查
 

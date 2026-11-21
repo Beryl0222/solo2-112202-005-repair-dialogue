@@ -27,6 +27,12 @@
       "recorded_at",
       "config",
       "result"
+    ],
+    "loan_log.tsv": [
+      "id",
+      "asset",
+      "loan_to",
+      "retained_state"
     ]
   },
   "references": [
