@@ -1,0 +1,40 @@
+{
+  "columns": {
+    "conversation.tsv": [
+      "id",
+      "case",
+      "turn",
+      "role",
+      "refer_to",
+      "text"
+    ],
+    "manual.tsv": [
+      "id",
+      "manual",
+      "route",
+      "text"
+    ],
+    "stations.tsv": [
+      "id",
+      "station",
+      "availability",
+      "handoff"
+    ],
+    "prior_check.tsv": [
+      "id",
+      "case",
+      "check",
+      "recorded_at",
+      "config",
+      "result"
+    ]
+  },
+  "references": [
+    [
+      "conversation.tsv",
+      "refer_to",
+      "conversation.tsv"
+    ]
+  ],
+  "compound_keys": []
+}
